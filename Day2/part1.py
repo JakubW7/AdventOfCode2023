@@ -1,7 +1,9 @@
 import re
+
 f = open('input.txt', 'r')
 count = 0
 game_n = 0
+
 for x in f:
     flag = 0
     game_n += 1
