@@ -1,6 +1,7 @@
 count = 0
 
 def step():
+    """Move to the next point and increment count"""
     global y2, x2, count
     y2, x2 = y, x
     count += 1
