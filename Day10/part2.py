@@ -68,7 +68,7 @@ while True:
     if y == start_y and x == start_x:
         break 
 
-# Calculate area of the polygon
+# Calculate area of the polygon using shoelace formula
 area = 0
 for i in range(len(pipes_list) - 1):
     area += pipes_list[i][0] * pipes_list[i + 1][1] - pipes_list[i + 1][0] * pipes_list[i][1]
